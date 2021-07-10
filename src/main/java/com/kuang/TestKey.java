@@ -26,6 +26,6 @@ public class TestKey {
         System.out.println("切换数据库:"+jedis.select(0));
         System.out.println("删除当前选择数据库中的所有key: "+jedis.flushDB());
         System.out.println("返回当前数据库中key的数日: "+jedis.dbSize());
-        System.out.println("删除所有数据库中的所有key: "+jedis.flushAll());
+        System.out.println("删除所有数据库中的所有key123456: "+jedis.flushAll());
     }
 }
